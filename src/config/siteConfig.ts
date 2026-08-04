@@ -115,10 +115,10 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/wly5.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/desktop-banner/wly1.webp",
-				"/assets/desktop-banner/wly2.webp",
-				"/assets/desktop-banner/wly4.webp",
-				"/assets/desktop-banner/wly5.webp",
+				"/assets/desktop-banner/1.webp",
+				"/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/3.webp",
+				"/assets/desktop-banner/4.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 

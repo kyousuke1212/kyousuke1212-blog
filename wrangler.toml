@@ -1,0 +1,6 @@
+name = "kyousuke1212-s-blog"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-08-04"
+
+[build]
+command = "npm install && npm run build"
