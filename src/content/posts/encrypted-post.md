@@ -4,11 +4,11 @@ published: 2024-01-15
 description: This is an article for testing the page encryption feature
 encrypted: true
 pinned: true
-password: "123456"
-passwordHint: "123456"
+password: "LgjWly666"
+passwordHint: "猜对给你五十块"
 hideHomeContent: true
 alias: "encrypted-example"
-tags: ["Test", "Encryption"]
+tags: ["言叶之庭"]
 category: "Technology"
 ---
 

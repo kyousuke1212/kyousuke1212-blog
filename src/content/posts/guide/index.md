@@ -1,9 +1,9 @@
 ---
-title: Simple Guides for Mizuki
-published: 2024-04-01
-description: "How to use this blog template."
+title: LGJ到此一游
+published: 2026-08-04
+description: "6657upup"
 image: "./cover.webp"
-tags: ["Mizuki", "Blogging", "Customization"]
+tags: []
 category: Guides
 draft: false
 ---
@@ -16,7 +16,7 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 
 ```yaml
 ---
-title: My First Blog Post
+title: My First Blog P0st
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
 image: ./cover.jpg

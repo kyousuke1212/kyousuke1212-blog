@@ -26,9 +26,9 @@ export const skillsData: Skill[] = [
 			"Modern JavaScript development, including ES6+ syntax, asynchronous programming, and modular development.",
 		icon: "logos:javascript",
 		category: "frontend",
-		level: "advanced",
-		experience: { years: 3, months: 6 },
-		projects: ["mizuki-blog", "portfolio-website", "data-visualization-tool"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#F7DF1E",
 	},
 	{
@@ -38,9 +38,9 @@ export const skillsData: Skill[] = [
 			"A type-safe superset of JavaScript that enhances code quality and development efficiency.",
 		icon: "logos:typescript-icon",
 		category: "frontend",
-		level: "advanced",
-		experience: { years: 2, months: 8 },
-		projects: ["mizuki-blog", "portfolio-website", "task-manager-app"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#3178C6",
 	},
 	{
@@ -50,9 +50,9 @@ export const skillsData: Skill[] = [
 			"A JavaScript library for building user interfaces, including Hooks, Context, and state management.",
 		icon: "logos:react",
 		category: "frontend",
-		level: "advanced",
-		experience: { years: 2, months: 10 },
-		projects: ["portfolio-website", "task-manager-app"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#61DAFB",
 	},
 	{
@@ -62,9 +62,9 @@ export const skillsData: Skill[] = [
 			"A progressive JavaScript framework that is easy to learn and use, suitable for rapid development.",
 		icon: "logos:vue",
 		category: "frontend",
-		level: "intermediate",
-		experience: { years: 1, months: 8 },
-		projects: ["data-visualization-tool"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#4FC08D",
 	},
 	{
@@ -75,8 +75,8 @@ export const skillsData: Skill[] = [
 		icon: "logos:angular-icon",
 		category: "frontend",
 		level: "beginner",
-		experience: { years: 0, months: 9 },
-		projects: ["enterprise-dashboard"],
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#DD0031",
 	},
 	{
@@ -86,9 +86,9 @@ export const skillsData: Skill[] = [
 			"A production-level React framework supporting SSR, SSG, and full-stack development.",
 		icon: "logos:nextjs-icon",
 		category: "frontend",
-		level: "intermediate",
-		experience: { years: 1, months: 4 },
-		projects: ["e-commerce-frontend", "blog-platform"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#616161", // 更改为深灰色，避免纯黑色
 	},
 	{
@@ -99,8 +99,8 @@ export const skillsData: Skill[] = [
 		icon: "logos:nuxt-icon",
 		category: "frontend",
 		level: "beginner",
-		experience: { years: 0, months: 6 },
-		projects: ["vue-ssr-app"],
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#00DC82",
 	},
 	{
@@ -110,9 +110,9 @@ export const skillsData: Skill[] = [
 			"A modern static site generator supporting multi-framework integration and excellent performance.",
 		icon: "logos:astro-icon",
 		category: "frontend",
-		level: "advanced",
-		experience: { years: 1, months: 2 },
-		projects: ["mizuki-blog"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: ["kyousuke1212-blog"],
 		color: "#FF5D01",
 	},
 	{
@@ -122,9 +122,9 @@ export const skillsData: Skill[] = [
 			"A utility-first CSS framework for rapidly building modern user interfaces.",
 		icon: "logos:tailwindcss-icon",
 		category: "frontend",
-		level: "advanced",
-		experience: { years: 2, months: 0 },
-		projects: ["mizuki-blog", "portfolio-website"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: ["kyuousuke1212-blog"],
 		color: "#06B6D4",
 	},
 	{
@@ -134,37 +134,14 @@ export const skillsData: Skill[] = [
 			"A CSS preprocessor providing advanced features like variables, nesting, and mixins.",
 		icon: "logos:sass",
 		category: "frontend",
-		level: "intermediate",
-		experience: { years: 2, months: 3 },
-		projects: ["legacy-website", "component-library"],
+		level: "beginner",
+		experience: { years: 0, months: 1 },
+		projects: [],
 		color: "#CF649A",
 	},
-	{
-		id: "webpack",
-		name: "Webpack",
-		description: "A static module bundler for modern JavaScript applications.",
-		icon: "logos:webpack",
-		category: "frontend",
-		level: "intermediate",
-		experience: { years: 1, months: 10 },
-		projects: ["custom-build-tool", "spa-application"],
-		color: "#8DD6F9",
-	},
-	{
-		id: "vite",
-		name: "Vite",
-		description:
-			"Next-generation frontend build tool with fast cold starts and hot updates.",
-		icon: "logos:vitejs",
-		category: "frontend",
-		level: "intermediate",
-		experience: { years: 1, months: 2 },
-		projects: ["vue-project", "react-project"],
-		color: "#646CFF",
-	},
-
+	
 	// Backend Skills
-	{
+	/*{
 		id: "nodejs",
 		name: "Node.js",
 		description:
@@ -176,6 +153,7 @@ export const skillsData: Skill[] = [
 		projects: ["data-visualization-tool", "e-commerce-platform"],
 		color: "#339933",
 	},
+	*/
 	{
 		id: "python",
 		name: "Python",
@@ -184,10 +162,10 @@ export const skillsData: Skill[] = [
 		icon: "logos:python",
 		category: "backend",
 		level: "intermediate",
-		experience: { years: 1, months: 10 },
+		experience: { years: 0, months: 2 },
 		color: "#3776AB",
 	},
-	{
+	/*{
 		id: "java",
 		name: "Java",
 		description:
@@ -199,6 +177,7 @@ export const skillsData: Skill[] = [
 		projects: ["enterprise-system", "microservices-api"],
 		color: "#ED8B00",
 	},
+
 	{
 		id: "csharp",
 		name: "C#",
@@ -235,6 +214,7 @@ export const skillsData: Skill[] = [
 		projects: ["system-tool", "performance-critical-app"],
 		color: "#CE422B",
 	},
+	*/
 	{
 		id: "cpp",
 		name: "C++",
@@ -259,6 +239,7 @@ export const skillsData: Skill[] = [
 		projects: ["embedded-system", "kernel-module"],
 		color: "#A8B9CC",
 	},
+	/*
 	{
 		id: "kotlin",
 		name: "Kotlin",
@@ -342,9 +323,10 @@ export const skillsData: Skill[] = [
 		projects: ["blog-backend"],
 		color: "#092E20",
 	},
-
+*/
 	// Database Skills
-	{
+
+	/*{
 		id: "mysql",
 		name: "MySQL",
 		description:
@@ -415,7 +397,7 @@ export const skillsData: Skill[] = [
 		projects: ["task-manager-app"],
 		color: "#FFCA28",
 	},
-
+*/
 	// Tools
 	{
 		id: "git",
@@ -425,7 +407,7 @@ export const skillsData: Skill[] = [
 		icon: "logos:git-icon",
 		category: "tools",
 		level: "advanced",
-		experience: { years: 3, months: 0 },
+		experience: { years: 0, months: 6 },
 		color: "#F05032",
 	},
 	{
@@ -436,9 +418,10 @@ export const skillsData: Skill[] = [
 		icon: "logos:visual-studio-code",
 		category: "tools",
 		level: "expert",
-		experience: { years: 3, months: 6 },
+		experience: { years: 1, months: 1 },
 		color: "#007ACC",
 	},
+	/*
 	{
 		id: "webstorm",
 		name: "WebStorm",
@@ -463,6 +446,7 @@ export const skillsData: Skill[] = [
 		projects: ["java-enterprise", "spring-boot-app"],
 		color: "#616161", // 更改为深灰色，避免纯黑色
 	},
+	*/
 	{
 		id: "pycharm",
 		name: "PyCharm",
@@ -475,6 +459,7 @@ export const skillsData: Skill[] = [
 		projects: ["python-web-app", "data-analysis"],
 		color: "#21D789",
 	},
+	/*
 	{
 		id: "rider",
 		name: "Rider",
@@ -616,6 +601,7 @@ export const skillsData: Skill[] = [
 		experience: { years: 1, months: 6 },
 		color: "#F24E1E",
 	},
+	*/
 	{
 		id: "photoshop",
 		name: "Photoshop",
@@ -629,6 +615,7 @@ export const skillsData: Skill[] = [
 	},
 
 	// Other Skills
+	/*
 	{
 		id: "graphql",
 		name: "GraphQL",
@@ -676,4 +663,5 @@ export const skillsData: Skill[] = [
 		projects: ["e2e-testing"],
 		color: "#17202C",
 	},
+	*/
 ];

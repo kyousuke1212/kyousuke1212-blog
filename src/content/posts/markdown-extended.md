@@ -4,7 +4,7 @@ published: 2024-05-01
 updated: 2026-07-30
 description: 'GitHub cards, callouts, code groups, Wiki Links, image grids, PlantUML, and other enhanced Markdown features in Mizuki.'
 image: ''
-tags: [Demo, Example, Markdown, Mizuki]
+tags: []
 category: 'Examples'
 draft: false 
 ---
