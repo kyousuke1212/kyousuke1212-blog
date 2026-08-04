@@ -98,5 +98,12 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^14.0.0"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "workerd",
+      "sharp",
+      "@img/sharp-win32-x64"
+    ]
+  },
   "packageManager": "pnpm@11.5.3"
 }
